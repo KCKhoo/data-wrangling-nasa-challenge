@@ -1,12 +1,14 @@
 # Data Wrangling - NASA Space App Challenge 2020
 
 ## Overview
-Data wrangling is performed to gather and clean NASA data from various sources. The following data is collected and cleaned before using the cleaned data to train a machine learning model to predict wildfire.
+Data wrangling is performed to gather, assess and clean NASA data from various sources. The following data is collected and cleaned before using the clean data to train a machine learning model to predict wildfire.
 
-- Fire location (label)
-- Temperature
-- Solar insolation
-- Rainfall
+| Data | File Format | Access Method |
+| --- | --- | --- |
+| Fire location (label) | CSV | Manual Download | 
+| Temperature | CSV | URL | 
+| Solar insolation | PNG | URL | 
+| Rainfall | nc4 | URL | 
 
 ## Programming Language
 - Python
